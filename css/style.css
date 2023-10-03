@@ -29,6 +29,8 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     height: 100%;
     color: white;
     font-weight: 700;
@@ -39,6 +41,10 @@ body {
     display: flex;
     gap: 220px;
 }
+
+.logo {
+    margin-top: -45px;
+} 
 
 
 .site-nav {
@@ -63,10 +69,11 @@ body {
 .header {
     width: 100%;
     height: 775px;
-    background-image: url('../images/весёлые-в-сан-франциско-пробки.jpg');
+    background-image: url('../images/hurling.jpg');
     background-size:100% 775px;
     flex-shrink: 0;
     background-repeat: no-repeat;
+    margin-bottom: 27px;
 }
 
 .Youtube {
@@ -98,6 +105,7 @@ body {
     line-height: normal;
     margin-top: 15px;
     margin-bottom: 43px;
+    cursor: pointer;
 }
 
 .br {
@@ -106,5 +114,90 @@ body {
 
 .description {
     display: flex;
-    gap: 3.66px;
+    gap: 40px;
+}
+
+.main {
+    color: #000;
+    margin-bottom: 154px;
+}
+
+.sport {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 19px;
+}
+
+
+.card-1 {
+    background-image:linear-gradient(90deg, rgba(84,82,82,0.4318977591036415) 100%, rgba(37,90,106,1) 100%, rgba(9,98,121,1) 100%, rgba(0,212,255,1) 100%), url('../images/wrestling.webp');
+    margin-left: 44.4px;
+    background-size:cover;
+    border-radius:8px;
+    vertical-align: bottom;
+}
+
+.card-2 {
+    background-image:linear-gradient(90deg, rgba(84,82,82,0.4318977591036415) 100%, rgba(37,90,106,1) 100%, rgba(9,98,121,1) 100%, rgba(0,212,255,1) 100%),url('../images/soapbox_racing.jpg');
+    background-size:cover;
+    border-radius:8px;
+    vertical-align: bottom;
+}
+
+.card-3 {
+    background-image:linear-gradient(90deg, rgba(84,82,82,0.4318977591036415) 100%, rgba(37,90,106,1) 100%, rgba(9,98,121,1) 100%, rgba(0,212,255,1) 100%),url('../images/Cheese_roling.jpg');
+    background-size:cover;
+    border-radius:8px;
+    vertical-align: bottom;
+}
+
+.top__card {
+    display: flex;
+    gap: 20px;
+}
+
+.card__h3 {
+    display: flex;
+    text-align: end;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+
+.card {
+    color: white;
+    padding-left: 12px;
+    width: 419.889px;
+    height: 232.828px;
+}
+
+
+.footer {
+    padding-left: 75px;
+    box-sizing: border-box;
+    height: 471px;
+    width: 100%;
+    background: #00162B;
+}
+
+.instagramm {
+    margin-left: 20px;
+}
+
+.call {
+    display: flex;
+    gap: 15px;
+}
+
+.youtube {
+    border-radius: 8px;
+}
+
+.facebook {
+    border-radius: 8px;
 }
